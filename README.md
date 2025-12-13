@@ -12,11 +12,11 @@ What started as a small personal tool turned into a project that taught me how t
 
 * Uses Python scripts to:
 
-            * validate new entries
+   * validate new entries
 
-            * load structured data
+   * load structured data
 
-            * refresh weekly summaries
+   * refresh weekly summaries
 
 * Builds an analysis-ready view (WorkoutDetails) that joins workouts + set data
 
@@ -76,16 +76,13 @@ This project helped bridge the gap between academic exercises and real-world dat
 # How to Run the Project
 
 
-Clone the repo:
-git clone <repo-url>
+*Clone the repo:git clone <repo-url>
 
 
-Install requirements (if added in the future):
-pip install -r requirements.txt
+*Install requirements (if added in the future):pip install -r requirements.txt
 
 
-Run the ETL script:
-python run_etl.py
+*Run the ETL script:python run_etl.py
 
 
-Open workout.db in any SQLite viewer to explore the tables.
+*Open workout.db in any SQLite viewer to explore the tables.
