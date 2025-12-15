@@ -7,6 +7,10 @@
 
 @author: omolaraoni
 """
+from ingest import ingest_workouts
+from validate import validate_data
+from transform import build_views
+
 from colorama import Fore,init
 import sqlite3
 import datetime
@@ -328,8 +332,6 @@ def main():
 if __name__ == '__main__':
     main()
                   
-             
-
              
              
         
